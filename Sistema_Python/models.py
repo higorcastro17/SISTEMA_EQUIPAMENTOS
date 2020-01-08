@@ -1,8 +1,9 @@
 from django.db import models
 
-class Funcionario(models.Model):
- nome = models.CharField(
- max_length=255,
+class Equipamento(models.Model):
+ mac = models.CharField(
+ primary_key=True, 
+ max_length=20,
  null=False,
  blank=False
  )
