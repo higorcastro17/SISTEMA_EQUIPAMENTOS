@@ -28,4 +28,5 @@ class Equipamento(models.Model):
  null=False,
  blank=False
  )
- objetos = models.Manager()
+
+ objects = models.Manager()
