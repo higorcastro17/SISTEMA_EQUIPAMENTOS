@@ -14,11 +14,13 @@ class Equipamento(models.Model):
  blank=False
  )
 
+ 
+
 class Cliente(models.Model):
  Nome = models.CharField(
  max_length=15,
  null=False,
- 
+
  )
  
  
