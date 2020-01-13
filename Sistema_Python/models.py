@@ -14,6 +14,13 @@ class Equipamento(models.Model):
  blank=False
  )
 
+ Processador = models.CharField(
+ max_length=50,
+ null=False,
+ blank=False
+ )
+
+
  
 
 class Cliente(models.Model):
